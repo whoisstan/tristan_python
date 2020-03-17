@@ -1,17 +1,20 @@
-# Operating System
+# Terminal Commands
 
 
-pwd - shows current folder
+_pwd_ - shows current folder
 
-cd name - change directory to name
+_cd_ NAME - change current directory to NAME
 
-ls - listing all the files in current folder
+_ls_ - listing all the files in current folder
 
-mkdir name - it creates a new folder called name
+_mkdir_ NAME - it creates a new folder called NAME
 
-touch name - creates an empty file called name
-
-python name - running the file called name 
+_touch_ NAME - creates an empty file called NAME
 
 copy - duplicates a file takes two names old/new
+
+# Run python
+
+_python_ NAME - interpret the python file called NAME
+_python_ NAME ARG1 ARG2 ... - interpret the python file called NAME and pass arguments ARG1, ARG2 
 
