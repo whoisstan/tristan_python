@@ -28,6 +28,8 @@ soccerTeam = ["brandon","tristan","nash","soren","issac","max","nico","lucas","j
 print(soccerTeam)
 print("length", len(soccerTeam) )
 
+print(soccerTeam + ["zack"])
+
 for name in soccerTeam:
     print name
     #comparing is if
