@@ -19,3 +19,4 @@ _python_ NAME - interpret the python file called NAME
 
 _python_ NAME ARG1 ARG2 ... - interpret the python file called NAME and pass arguments ARG1, ARG2 
 
+data types represent sertain thins
