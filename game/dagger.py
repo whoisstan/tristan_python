@@ -13,30 +13,41 @@ max = 5
 score = 0
 
 
+
+
 # 1.) show the user the random number
-# 2.) if the user wins inrease score by 3
-# 3.) if the user wins looses decrease score by 1
-# 4.) print score before asking him for the next choice
+
+
+
 
 while True:
+    
+    print ("Your current score: "+str(score))
     user_response = prompt("Guess bigger number between 0 and 4!") 
     if( user_response == "q" ):
         break
     else:
         #ignore that try
+
         try:
             user_number = int(user_response)
             game_number = random_number(max)
-            #win
+            print("the game number was "+str(game_number))
+            #cheating
             if ( user_number > max):
                 print( "are you a cheetah?")
+            #winning    
             elif ( user_number > game_number):
-                print( "you are too smart for me :)")                
+                print( "you are too smart for me :)")
+                score = score + 3              
+            #loosing    
             else:
                 print ("gotcha [O\\\\\[========================>>")
+                score = score - 1
         #ignore that except    
         except ValueError:
             #Handle the exception
-            print 'I said a number!'       
-            
-    
+            print 'I said a number!'
+        
+
+   
